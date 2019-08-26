@@ -1,0 +1,14 @@
+/* learned it's important to set a fallback for browsers that don't support css variables, we can also set a widley supported value immediately before variable to avoid issues. Set backgroung to red .red-box */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
