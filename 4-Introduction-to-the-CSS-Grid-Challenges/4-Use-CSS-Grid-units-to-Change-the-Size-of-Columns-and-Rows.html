@@ -1,0 +1,30 @@
+/* learned we can use em and px to ajust size of columns and rows but also there are additional units of length that can be used in css grid. Modified code to make 3 columns with the size 1fr 100px 2fr. fr sets column/row to a fraction of the space available */
+
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    /* modify the code below this line */
+
+    grid-template-columns: 1fr 100px 2fr;
+
+    /* modify the code above this line */
+    grid-template-rows: 50px 50px;
+  }
+</style>
+
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+</div>
