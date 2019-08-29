@@ -1,4 +1,4 @@
-/* learned about auto-fit, it's just like auto-fill but it instead collapses empty rows and columns and stretches items to fit the size of the container. Switched auto-fill to auto-fit on grid-template-columns .container */
+/* learned about the autofill option that comes as part of the repeat function, allowing you to automatically insert all the rows and columns that will fit into the container. Set autofill on grid-template-columns in .contaier */
 
 <style>
   .item1{background:LightSkyBlue;}
@@ -13,7 +13,11 @@
     width: 100%;
     background: LightGray;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(60px, 1fr));
+    /* change the code below this line */
+
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+
+    /* change the code above this line */
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
@@ -24,16 +28,11 @@
     width: 100%;
     background: Silver;
     display: grid;
-    /* change the code below this line */
-
     grid-template-columns: repeat(3, minmax(60px, 1fr));
-
-    /* change the code above this line */
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
 </style>
-
 <div class="container">
   <div class="item1">1</div>
   <div class="item2">2</div>
