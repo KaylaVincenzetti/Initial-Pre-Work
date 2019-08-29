@@ -1,4 +1,4 @@
-/* learned how to use the minmax function to limit the size of items when the grid container changes size. Set minmax in repeat function from last exercise to 90px, 1fr */
+/* learned how to use a repeat function to repeat stats for columns and rows. Set grid-template-columns to repeat 3 times at 1fr in .container */
 
 <style>
   .item1{background:LightSkyBlue;}
@@ -15,7 +15,7 @@
     display: grid;
     /* change the code below this line */
 
-    grid-template-columns: repeat(3, minmax(90px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
 
     /* change the code above this line */
     grid-template-rows: 1fr 1fr 1fr;
