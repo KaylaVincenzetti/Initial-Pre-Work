@@ -1,11 +1,18 @@
-/* learned how to use a repeat function to repeat stats for columns and rows. Set grid-template-columns to repeat 3 times at 1fr in .container */
+/* learned how items can still use the grid-area property without an areas template by referencing the items class and then setting the grid-area within the rows and columns you want it placed in. Set item5 grid-area to 3/1/4/4 */
 
 <style>
   .item1{background:LightSkyBlue;}
   .item2{background:LightSalmon;}
   .item3{background:PaleTurquoise;}
   .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+
+  .item5 {
+    background: PaleGreen;
+    /* add your code below this line */
+    item5 { grid-area: 3/1/4/4; }
+
+    /* add your code above this line */
+  }
 
   .container {
     font-size: 40px;
@@ -13,11 +20,7 @@
     width: 100%;
     background: LightGray;
     display: grid;
-    /* change the code below this line */
-
-    grid-template-columns: repeat(3, 1fr);
-
-    /* change the code above this line */
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
