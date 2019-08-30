@@ -1,13 +1,13 @@
-//learned how the += operator does the mathmatical operation and assignment in one step.
+//learned -= can be used just like += but to subtract instead of add
 
-//converted the assigments of var a,b,c to use the += operator so var a = a + 12 becomes a += 12; ect...
+//converted the assignments of var a,b,c to use -= so a = 11 - 6; becomes a -= 6; ect..
 
-var a = 3;
-var b = 17;
-var c = 12;
+var a = 11;
+var b = 9;
+var c = 3;
 
 // Only modify code below this line
 
-a += 12;
-b += 9;
-c += 7;
+a -= 6;
+b -= 15;
+c -= 1;
