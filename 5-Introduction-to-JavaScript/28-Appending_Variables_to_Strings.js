@@ -1,10 +1,12 @@
-//learned to insert variables into string by using + operator
+//learned to append variables to strings using +=
 
-//built myStr by concatenating with myName variables
 // Example
-var ourName = "freeCodeCamp";
-var ourStr = "Hello, our name is " + ourName + ", how are you?";
+var anAdjective = "awesome!";
+var ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
 
 // Only change code below this line
-var myName = "Kayla";
-var myStr = "My name is " + myName + " and I am well!";
+//appended someAdjective to myStr to create the string "Learning to code is Fantastic!"
+var someAdjective = "fantastic!";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
