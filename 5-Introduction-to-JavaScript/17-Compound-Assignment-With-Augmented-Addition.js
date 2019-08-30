@@ -1,7 +1,13 @@
-// learned about the remainder operator % that gives the remainder of the division of 2 numbers
+//learned how the += operator does the mathmatical operation and assignment in one step.
 
-//set the remainder to equeal the difference of 11 divided by 3
+//converted the assigments of var a,b,c to use the += operator so var a = a + 12 becomes a += 12; ect...
 
-// Only change code below this line
+var a = 3;
+var b = 17;
+var c = 12;
 
-var remainder = 11 % 3;
+// Only modify code below this line
+
+a += 12;
+b += 9;
+c += 7;
