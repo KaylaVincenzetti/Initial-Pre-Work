@@ -1,5 +1,5 @@
-//learned we can enclose strings in eiher single or double quotes but they should always start and end with the same type
+//learned about the many different types of escape sequences
 
-//updated myStr to start and end with single quotes so doulbe quotes could be used inside with no escape(\) characters
+//used escape sequences to format this string correctly when it prints to the console
 
-var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';)
+var myStr = "FirstLine\n\t\\SecondLine\n\ThirdLine"; // Change this line
