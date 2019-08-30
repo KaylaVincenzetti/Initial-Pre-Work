@@ -1,12 +1,16 @@
-//learned to append variables to strings using +=
+
+//learned how to find the length of a sting by using .length after the sting
 
 // Example
-var anAdjective = "awesome!";
-var ourStr = "freeCodeCamp is ";
-ourStr += anAdjective;
+var firstNameLength = 0;
+var firstName = "Ada";
 
-// Only change code below this line
-//appended someAdjective to myStr to create the string "Learning to code is Fantastic!"
-var someAdjective = "fantastic!";
-var myStr = "Learning to code is ";
-myStr += someAdjective;
+firstNameLength = firstName.length;
+
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line.
+//added .length to lastName to find the lenght of the sting last name
+lastNameLength = lastName.length;
