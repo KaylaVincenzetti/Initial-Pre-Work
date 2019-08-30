@@ -1,8 +1,10 @@
-//learned to add strings together using the + operator, this is called concatenation
+//learned how to use += to concatenate a string onto the end of a string
 
 // Example
-var ourStr = "I come first. " + "I come second.";
+var ourStr = "I come first. ";
+ourStr += "I come second.";
 
 // Only change code below this line
-//concatenated these two strings to turn the two strings into one
-var myStr = "This is the start." + " This is the end.";
+//used += to concatenate the two strings
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
