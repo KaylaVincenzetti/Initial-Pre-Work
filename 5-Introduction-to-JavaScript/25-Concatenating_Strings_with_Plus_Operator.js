@@ -1,5 +1,8 @@
-//learned about the many different types of escape sequences
+//learned to add strings together using the + operator, this is called concatenation
 
-//used escape sequences to format this string correctly when it prints to the console
+// Example
+var ourStr = "I come first. " + "I come second.";
 
-var myStr = "FirstLine\n\t\\SecondLine\n\ThirdLine"; // Change this line
+// Only change code below this line
+//concatenated these two strings to turn the two strings into one
+var myStr = "This is the start." + " This is the end.";
