@@ -1,10 +1,10 @@
-//learned how to use += to concatenate a string onto the end of a string
+//learned to insert variables into string by using + operator
 
+//built myStr by concatenating with myName variables
 // Example
-var ourStr = "I come first. ";
-ourStr += "I come second.";
+var ourName = "freeCodeCamp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
 
 // Only change code below this line
-//used += to concatenate the two strings
-var myStr = "This is the first sentence. ";
-myStr += "This is the second sentence.";
+var myName = "Kayla";
+var myStr = "My name is " + myName + " and I am well!";
