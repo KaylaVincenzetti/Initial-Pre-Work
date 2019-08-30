@@ -1,11 +1,5 @@
-//learned how to assign variables string values. 0 or more characters enclosed in quotes is called a string literal
+//learned how to use quotes inside a javascript string
 
-//created two variables and assigned the strings Kayla and Vincenzetti to them
+//used backslashes to ensure parts of string in quotes woule appear in quotes instead of designating the end of the string
 
-// Example
-var firstName = "Alan";
-var lastName = "Turing";
-
-// Only change code below this line
-var myFirstName = "Kayla";
-var myLastName = "Vincenzetti";
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
