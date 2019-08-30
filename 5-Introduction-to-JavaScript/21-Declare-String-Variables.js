@@ -1,13 +1,11 @@
-//learned we can use /= to divide variables by another number
+//learned how to assign variables string values. 0 or more characters enclosed in quotes is called a string literal
 
-//converted assignments for a,b,c to use /=. a = 48 / 12; becomes a /= 12; ect...
+//created two variables and assigned the strings Kayla and Vincenzetti to them
 
-var a = 48;
-var b = 108;
-var c = 33;
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
 
-// Only modify code below this line
-
-a /= 12;
-b /= 4;
-c /= 11;
+// Only change code below this line
+var myFirstName = "Kayla";
+var myLastName = "Vincenzetti";
