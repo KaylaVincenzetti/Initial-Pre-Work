@@ -1,13 +1,13 @@
-//learned how to multiply a variable using *=
+//learned we can use /= to divide variables by another number
 
-//convertd the assignments for a,b,c to use *= so a = a * 5; becomes a *= 5; ect...
+//converted assignments for a,b,c to use /=. a = 48 / 12; becomes a /= 12; ect...
 
-var a = 5;
-var b = 12;
-var c = 4.6;
+var a = 48;
+var b = 108;
+var c = 33;
 
 // Only modify code below this line
 
-a *= 5;
-b *= 3;
-c *= 10;
+a /= 12;
+b /= 4;
+c /= 11;
