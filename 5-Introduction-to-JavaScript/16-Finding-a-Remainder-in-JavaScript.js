@@ -1,5 +1,7 @@
-//learned to divide decimals
+// learned about the remainder operator % that gives the remainder of the division of 2 numbers
 
-//updated 0.0 to 4.4 so the quotient would equal 2.2
+//set the remainder to equeal the difference of 11 divided by 3
 
-var quotient = 4.4 / 2.0; // Fix this line
+// Only change code below this line
+
+var remainder = 11 % 3;
