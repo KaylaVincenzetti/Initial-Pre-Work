@@ -1,5 +1,5 @@
-//learned how to use quotes inside a javascript string
+//learned we can enclose strings in eiher single or double quotes but they should always start and end with the same type
 
-//used backslashes to ensure parts of string in quotes woule appear in quotes instead of designating the end of the string
+//updated myStr to start and end with single quotes so doulbe quotes could be used inside with no escape(\) characters
 
-var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';)
