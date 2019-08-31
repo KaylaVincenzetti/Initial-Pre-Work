@@ -21,5 +21,5 @@ var myPlants = [
 ];
 
 // Only change code below this line
-//retreived the second tree from the myPlants object
+//retrieved the second tree from the myPlants object
 var secondTree = myPlants[1].list[1]; // Change this line
