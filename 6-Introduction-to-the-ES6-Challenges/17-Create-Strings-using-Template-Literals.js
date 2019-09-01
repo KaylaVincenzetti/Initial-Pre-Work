@@ -1,14 +1,24 @@
-//learned to easily define object literals
+//learned to create strings using template literals
 
-const createPerson = (name, age, gender) => {
-  "use strict";
-  // change code below this line
-  //removed duplicate words and colons
-  return {
-    name,
-    age,
-    gender
-  };
-  // change code above this line
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["id-blacklist", "no-dup-keys"]
 };
-console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
+function makeList(arr) {
+  "use strict";
+
+  // change code below this line
+  //used template literals to display result 0f objects failure array
+  const resultDisplayArray = arr.map(item => `<li class="text-warning">${item}</li>`);
+  // change code above this line
+
+  return resultDisplayArray;
+}
+/**
+ * makeList(result.failure) should return:
+ * [ `<li class="text-warning">no-var</li>`,
+ *   `<li class="text-warning">var-on-top</li>`,
+ *   `<li class="text-warning">linebreak</li>` ]
+ **/
+const resultDisplayArray = makeList(result.failure);
