@@ -1,14 +1,13 @@
-//learned to write concise declarative functions with ES6 by removeing fucntion keyworkd and colon
+//learned to easily define object literals by removing repeating word and colon in the return
 
-// change code below this line
-const bicycle = {
-  gear: 2,
-  //removed function keyword and colon
-  setGear(newGear) {
-    "use strict";
-    this.gear = newGear;
-  }
+const createPerson = (name, age, gender) => {
+  "use strict";
+  // change code below this line
+  return {
+    name,
+    age,
+    gender
+  };
+  // change code above this line
 };
-// change code above this line
-bicycle.setGear(3);
-console.log(bicycle.gear);
+console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
