@@ -37,6 +37,7 @@ footer {
 .image {
     margin-top: 120px;
     margin-left: 0px; 
+    display: table;
 }
 .about {
     margin-top: 120px;
@@ -52,4 +53,12 @@ footer {
     clear: both;
     display: table;
   }
-
+.image h1 {
+    margin-bottom: 100px;
+    text-align: start;
+    display: table-row;
+    
+}
+.image img {
+   
+}
