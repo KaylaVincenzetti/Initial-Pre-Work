@@ -1,22 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     margin: 0;
     padding: 0;
 }
-* {
-    box-sizing: border-box;
-  }
-  
-  .box {
+.box {
     float: left;
     width: 33.33%;
-    padding: 50px;
+    padding: 70px;
+    display: inline-flex;
   }
   
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 header {
     padding: 20px;
     text-align: center;
@@ -38,15 +34,22 @@ footer {
 .container {
     display: flex;
 }
+.image {
+    margin-top: 120px;
+    margin-left: 0px; 
+}
 .about {
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 120px;
+    margin-left: 0px;
 }
 .favs {
     float: right;
-    margin-bottom: 150px;
-    margin-left: 100px;
-    border: thin;
-
+    margin-top: -258px;
+    margin-left: 150px;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
