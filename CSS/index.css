@@ -47,6 +47,7 @@ footer {
     float: right;
     margin-top: -258px;
     margin-left: 150px;
+    display: table;
 }
 .clearfix::after {
     content: "";
@@ -57,8 +58,8 @@ footer {
     margin-bottom: 100px;
     text-align: start;
     display: table-row;
-    
 }
-.image img {
-   
+.favs h1 h3 {
+    display: table-row;    
 }
+
