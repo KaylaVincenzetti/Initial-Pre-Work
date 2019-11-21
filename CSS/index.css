@@ -48,12 +48,14 @@ footer {
     background: #d9d3d2;
    
 }
-.about h2 p {
+.about h1 p {
     display: table-row;  
+    
 }
 .favs {
     margin-top: 120px;
     margin-left: 0px;
+    padding: 78px;
     display: table;
     background: #d9d3d2;
 }
@@ -61,13 +63,9 @@ footer {
     content: "";
     clear: both;
     display: table;
-  }
-.image h2 {
-    margin-bottom: 100px;
-    text-align: start;
-    display: table-row;
 }
-.favs h1 h4 {
-    display: table-row;    
+.favs h2 h4 {
+    display: table-row;  
+    
 }
 
